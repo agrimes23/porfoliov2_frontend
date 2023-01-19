@@ -1,0 +1,99 @@
+/* ------------------- All Pages ------------------- */
+
+body, html {
+  width: 99%;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+
+/* ------------------- NavBar ------------------- */
+
+.navbar-home {
+  position: relative;
+  top: 3vh;
+  left: 60vw;
+  background: #272727;
+  font-size: 1.3em;
+  color:rgb(32, 182, 174);
+  box-shadow: 10px 10px rgb(20, 187, 179);
+}
+
+a.navbar-link:hover {
+  color: black;
+  background: linear-gradient(to right, rgb(20, 187, 179), rgba(245, 245, 241, 0));
+  padding-left: 15px !important;
+}
+
+.navbar-scroll {
+  display: none !important;
+}
+
+/* ------------------- Home Page ------------------- */
+
+.style-border {
+  position: relative;
+  top: 5vh;
+  left: 5vw;
+  width: 90vw;
+  height: 90vh;
+  border: 3px rgb(32, 182, 174) solid;
+  background-color: rgb(19, 19, 19);
+}
+
+.main-intro {
+  position: relative;
+  top: 350px;
+  left: 130px;
+  width: 50%;
+}
+
+.intro-styling {
+  position: relative;
+  top: 550px;
+  left: 50px;
+  width: 250px;
+  height: 150px;
+  border-image: linear-gradient(to top right, rgb(27, 235, 224), rgb(252, 255, 95)) 2;
+  border-left: 8px solid transparent;
+  border-bottom: 8px black solid;
+}
+
+h1.main-title {
+  font-size: 5em;
+}
+
+h2.description-title {
+  font-size: 2em;
+  color:rgb(192, 192, 192)
+}
+
+/* ------------------- About Me ------------------- */
+
+.aboutme-page {
+  position: relative;
+  top: 400px;
+  height: 70vh;
+  width: 100vw;
+}
+
+.aboutme-section {
+  
+  background-color: #272727;
+  padding: 30px;
+}
+
+/* ------------------- Project Page ------------------- */
+
+.project-page {
+  position: relative;
+  top: 1500px;
+}
+
+/* ------------------- Work Experience ------------------- */
+
+.work-ex-page {
+  position: relative;
+  top: 1200px;
+  background-color: #272727;
+}
+
