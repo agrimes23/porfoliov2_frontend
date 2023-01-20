@@ -6,6 +6,54 @@ body, html {
   color: white;
 }
 
+.fadeInTop {
+  -webkit-animation: fadeInTop 2.2s both;
+  -moz-animation: fadeInTop 2.2s both;
+  -o-animation: fadeInTop 2.2s both;
+  animation: fadeInTop 2.2s both;
+}
+@-webkit-keyframes fadeInTop {
+  0%{
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes fadeInTop {
+  0%{
+    opacity: 0;
+    -moz-transform: translateY(-50px);
+  }
+  100%{
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+@-o-keyframes fadeInTop {
+  0%{
+    opacity: 0;
+    -o-transform: translateY(-50px);
+  }
+  100%{
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+@keyframes fadeInTop {
+  0%{
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 /* ------------------- NavBar ------------------- */
 
 .navbar-home {
@@ -71,13 +119,13 @@ h2.description-title {
 
 .aboutme-page {
   position: relative;
-  top: 400px;
+  top: 300px;
   height: 70vh;
   width: 100vw;
 }
 
 .aboutme-section {
-  
+  box-shadow: 10px 10px rgb(20, 187, 179);
   background-color: #272727;
   padding: 30px;
 }
@@ -86,14 +134,14 @@ h2.description-title {
 
 .project-page {
   position: relative;
-  top: 1500px;
+  top: 700px;
 }
 
 /* ------------------- Work Experience ------------------- */
 
 .work-ex-page {
   position: relative;
-  top: 1200px;
+  top: 400px;
   background-color: #272727;
 }
 
