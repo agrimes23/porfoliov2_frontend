@@ -52,10 +52,8 @@ const WorkExpContent = (props) => {
                                     <h5><em>General Assembly</em></h5>
                                 </div>
                             </div>
-
                           
-                            <div className={ clicked === "10-2019 – 06-2022" ? "show-tab row" : "hide-tab"}>
-                                                          
+                        <div className={ clicked === "10-2019 – 06-2022" ? "show-tab row" : "hide-tab"}>                              
                             <div className="p-3">
                               <h4>Accounting Specialist</h4>
                               <h5><em>UACJ North America, Inc., Chicago, IL</em></h5>
@@ -65,12 +63,9 @@ const WorkExpContent = (props) => {
                                 <li>Responsible for Accounts Receivable, including issuing invoices to group companies, receiving and entering payments, and following up with group companies on late payments.</li>
                               </ul>
                             </div>
-                          </div>
-                          
-
-
-                          
-                            <div className={ clicked === "07-2017 – 07-2019" ? "show-tab row" : "hide-tab"}>
+                        </div>
+                        
+                        <div className={ clicked === "07-2017 – 07-2019" ? "show-tab row" : "hide-tab"}>
                               
                             <div className="p-3">
                               <h4>Japan Exchange & Teaching Program (JET) Assistant Language Teacher</h4>
@@ -81,10 +76,10 @@ const WorkExpContent = (props) => {
                                 <li>Exhibited flexibility and adaptability when coordinating plans with other English teachers.</li>
                               </ul>
                             </div>
-                          </div>
+                        </div>
 
                           
-                            <div className={ clicked === "07-2016 – 07-2017" ? "show-tab row" : "hide-tab"}>
+                        <div className={ clicked === "07-2016 – 07-2017" ? "show-tab row" : "hide-tab"}>
                             <div className="p-3">
                               <h4>English Teacher</h4>
                               <h5><em>VIPKID, Online Classroom </em></h5>
@@ -94,12 +89,12 @@ const WorkExpContent = (props) => {
                                 <li>Used data from previous classes to change the plan and learning environment to fit student's needs.</li>
                               </ul>
                             </div>
-                          </div>
+                        </div>
 
        
+
+                        <div className={ clicked === "01-2016 – 06-2016" ? "show-tab row" : "hide-tab"}>
                             <div className="p-3">
-                            <div className={ clicked === "01-2016 – 06-2016" ? "show-tab row" : "hide-tab"}>
-                            <div className="">
                               <h4>Accountant, Internship </h4>
                               <h5><em>Magnolia Health Systems, Indianapolis, IN</em></h5>
                               <ul>
@@ -110,9 +105,10 @@ const WorkExpContent = (props) => {
                                 <li>Calculated and entered monthly recurring journal entries.</li>
                               </ul>
                             </div>
-                          </div>
-                          </div>
                         </div>
+
+                    </div>
+
 
                         <div className={ props.active === "School" ? "show-tab row" : "hide-tab"}>
                           <div className="py-5">

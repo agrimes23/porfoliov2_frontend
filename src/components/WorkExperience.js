@@ -44,7 +44,7 @@ const WorkExperience = () => {
 
     return (
         <>
-            <div className={ isVisible ? "fadeInTop": ""}>
+            <div className={ isVisible ? "fadeInTop mb-5": "mb-5"}>
               
                 <div id="work_exp_section" ref={domRef} className="work-ex-page d-flex align-items-center row m-auto w-75 p-5 rounded">
                 <h1 className="py-4">Work Experience</h1>
