@@ -4,27 +4,21 @@ import NavBar from './NavBar';
 import Projects from './Projects';
 import Footer from './Footer'
 import WorkExperience from './WorkExperience'
+import Intro from './Intro';
+
 
 const HomePage = () => {
 
     return (
         <>
             <div className="home-page container-fluid row d-flex align-items-center">
-                <div className="style-border">
-                <div className="intro-styling"></div>
-                <div id="intro_section" className="main-intro">
-                    <h1 className="main-title">Alex Grimes</h1>
-                    <h2 className="description-title">Frontend Developer | Web Developer</h2>
-                </div>
-                <div>
-                    <NavBar/>
-                </div>
+                <Intro />
                 <AboutMe />
-                <WorkExperience />
                 <Projects />
+                <WorkExperience />                
                 <Footer/>
             </div>
-            </div>
+
         </>
     )
 }

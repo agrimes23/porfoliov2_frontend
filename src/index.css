@@ -1,9 +1,10 @@
 /* ------------------- All Pages ------------------- */
 
 body, html {
-  width: 99%;
+  width: 100vw;
   background-color: rgb(25, 25, 25);
   color: white;
+  
 }
 
 .fadeInTop {
@@ -78,13 +79,17 @@ a.navbar-link:hover {
 
 /* ------------------- Home Page ------------------- */
 
+.home-page {
+  width: 100vw;
+}
+
 .style-border {
   position: relative;
   top: 5vh;
   left: 5vw;
   width: 90vw;
   height: 90vh;
-  border: 3px rgb(32, 182, 174) solid;
+  border: 3px rgb(32, 182, 175) solid;
   background-color: rgb(19, 19, 19);
 }
 
@@ -118,10 +123,10 @@ h2.description-title {
 /* ------------------- About Me ------------------- */
 
 .aboutme-page {
-  position: relative;
-  top: 300px;
-  height: 70vh;
-  width: 100vw;
+  position: inline-block;
+  height: 60vh;
+  margin-top: 10vh !important;
+  margin-bottom: 10vh !important;
 }
 
 .aboutme-section {
@@ -133,16 +138,18 @@ h2.description-title {
 /* ------------------- Project Page ------------------- */
 
 .project-page {
-  position: relative;
-  top: 450px;
+  margin-top: 10vh !important;
+  margin-bottom: 10vh !important;
+  padding: 5%;
+  background-color: #272727;
 }
 
 /* ------------------- Work Experience ------------------- */
 
 .work-ex-page {
-  position: relative;
-  top: 250px;
   background-color: #272727;
+  margin-top: 10vh !important;
+  margin-bottom: 10vh !important;
 }
 
 .work-dates {
@@ -161,5 +168,8 @@ h2.description-title {
 /* ------------------------- Footer ------------------------- */
 
 .footer {
-
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #272727;
+  min-width: 100vw;
 }

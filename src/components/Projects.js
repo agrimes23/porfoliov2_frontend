@@ -19,9 +19,9 @@ const Projects = () => {
     return (
         <>
             <div className={ isVisible ? "fadeInTop" : ""}>
-                <div id="projects_section" ref={domRef} className="project-page mb-5 pb-4 d-flex align-items-center row m-auto w-75">
+                <div id="projects_section" className="project-page mb-5 pb-4 d-flex align-items-center row m-auto w-75">
                     {/* <a id="projects_section"></a> */}
-                    <div>
+                    <div ref={domRef}>
                         <h2>Projects</h2>
                         <h4>alsdf;laskfj;saf</h4>
                     </div>

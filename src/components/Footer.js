@@ -5,11 +5,11 @@ const Footer = () => {
 
     return (
         <>
-           <footer className="footer">
+           <footer className="footer text-center">
                 <div>
                     <a>Github</a>
                     <a>Linked-In</a>
-                    <a></a>
+                    <a>Contact</a>
                 </div>
            </footer>
         </>
