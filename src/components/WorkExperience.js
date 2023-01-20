@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer'
 import styled from 'styled-components'
 import WorkExpContent from './WorkExpContent';
 
+
 const WorkExperience = () => {
 
     const [isVisible, setVisible] = useState(true);
