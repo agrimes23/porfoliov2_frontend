@@ -134,14 +134,32 @@ h2.description-title {
 
 .project-page {
   position: relative;
-  top: 700px;
+  top: 450px;
 }
 
 /* ------------------- Work Experience ------------------- */
 
 .work-ex-page {
   position: relative;
-  top: 400px;
+  top: 250px;
   background-color: #272727;
 }
 
+.work-dates {
+  width: 90px !important;
+}
+/* ------------------------- Tabs ------------------------- */
+
+.show-tab {
+  display: flex;
+}
+
+.hide-tab {
+  display: none;
+}
+
+/* ------------------------- Footer ------------------------- */
+
+.footer {
+
+}

@@ -2,6 +2,7 @@ import useState, { useDebugValue } from 'react'
 import AboutMe from './AboutMe';
 import NavBar from './NavBar';
 import Projects from './Projects';
+import Footer from './Footer'
 import WorkExperience from './WorkExperience'
 
 const HomePage = () => {
@@ -21,6 +22,7 @@ const HomePage = () => {
                 <AboutMe />
                 <WorkExperience />
                 <Projects />
+                <Footer/>
             </div>
             </div>
         </>
