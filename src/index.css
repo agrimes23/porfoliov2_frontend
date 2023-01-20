@@ -124,7 +124,7 @@ h2.description-title {
 
 .aboutme-page {
   position: inline-block;
-  height: 60vh;
+  height: 50vh;
   margin-top: 10vh !important;
   margin-bottom: 10vh !important;
 }
@@ -142,6 +142,12 @@ h2.description-title {
   margin-bottom: 10vh !important;
   padding: 5%;
   background-color: #272727;
+  box-shadow: 10px 10px rgb(20, 187, 179);
+}
+
+.project-card {
+  width: 30%;
+  background-color: rgb(72, 163, 206);
 }
 
 /* ------------------- Work Experience ------------------- */
@@ -150,6 +156,7 @@ h2.description-title {
   background-color: #272727;
   margin-top: 10vh !important;
   margin-bottom: 10vh !important;
+  box-shadow: 10px 10px rgb(20, 187, 179);
 }
 
 .work-dates {

@@ -128,22 +128,22 @@ const WorkExpContent = (props) => {
 
                         <div className={ props.active === "Certificates" ? "show-tab row" : "hide-tab"}>
                           <div className="d-flex row text-center pt-4">
-                            <div className="p-3">
+                            <div className="p-3 m-3">
                               <h5>N4 of Japanese Language Proficiency Test (JLPT)</h5>
                               <h6 className="">07-2018</h6>
                             </div>
-                            <hr />
-                            <div className="p-3">
+                            <hr className="w-25 m-auto"/>
+                            <div className="p-3 m-3">
                               <h5>N3 of Japanese Language Proficiency Test (JLPT)</h5>
                               <h6 className="">07-2019</h6>
                             </div>
-                            <hr />
-                            <div className="p-3">
+                            <hr className="w-25 m-auto" />
+                            <div className="p-3 m-3">
                               <h5>TEFL Certificate - 170 hours</h5>
                               <h6 className="">06-2016</h6>
                             </div>
-                            <hr />
-                            <div className="p-3">
+                            <hr className="w-25 m-auto" />
+                            <div className="p-3 m-3">
                               <h5>JET Kizuna Ambassador Award</h5>
                               <h6 className="">01-2018</h6>
                             </div>
