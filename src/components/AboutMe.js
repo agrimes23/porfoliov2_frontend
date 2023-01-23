@@ -25,12 +25,7 @@ const AboutMe = () => {
                             <h2>About Me</h2>
                         </div>
                         <div>
-                            <h5>Lorem Ipsumsfksdjflksdjflsdjflsad;fsda;flkjsdl;flkjsdlasdf
-                                as;ldkfjasdlkjf;asdkjf;sadkf;sadkfjas;dlkfjsad;ldkfjasdlkjfasdlfj
-                                asd;lfkjsad;fkjsad;kfjsad;kfjsd;akljf;sdakljf;dskjfk;dslafj
-                                ;asdlkjfldsk;ajfk;ldsajf;kldsajf;lkdasjf;lasdjfl;dsaf;asdlkfj;dsaf;
-                                a;sldkfj;sadlkfj;sadkfjasd;lkfjsd;kljfdsa;kfjdsk;jfsd;kfjsdlk;
-                                ;laskdjf;lksdajfkl;jk;lsdf;ljk.
+                            <h5>Web-Developer with a focus on front-end development. My time living in Japan in a multicultural setting has taught me the value of teamwork and cooperation to get a project done. As well as being a dependable member of a team, I am very focused and organized which motivates me to take on ambitious projects. My attention to detail from my accounting work has aided me in problem solving.
                             </h5>
                         </div>
                     </div>
